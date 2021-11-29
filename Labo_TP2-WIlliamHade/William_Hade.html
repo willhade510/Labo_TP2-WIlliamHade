@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(5, 20%);
+        }
+
+        li {
+            display: block;
+            position: relative;
+            width: 100px;
+        }
+
+        ul.sous_menu {
+            display: none;
+        }
+
+        li:hover {
+            color: rgb(0, 0, 255);
+            background-color: rgb(0, 0, 0);
+        }
+
+        li:hover>ul.sous_menu {
+            display: block;
+            position: absolute;
+            top: 0px;
+            left: 60%;
+        }
+
+        .photos {
+            width: 20px;
+            height: 20px;
+            padding-right: 10px;
+        }
+
+
+
+
+        .text {
+            color: black;
+        }
+    </style>
+</head>
+
+<body style="background-image: url('images/Fond.png')">
+
+
+    <h1>
+        <div class="text">Favoris
+    </h1>
+    <ul div class="text menu">
+        <h3><img class="photos" src="images/music_icon.png" , align=left> Musiques <img src="images/ICON_submenu.png" ,
+                align=right</h3>
+            <li>
+                Rock
+            </li>
+
+            <ul>
+                <li>
+                    Jazz <img src="images/ICON_submenu.png">
+                </li>
+                <li>
+                    Pat Metheny
+                </li>
+                <li>
+                    Miles Davis
+                </li>
+                <ul>
+                    <li>
+                        UZEB <img src="images/ICON_submenu.png">
+                    </li>
+                    <li>
+                        Alain Caron
+                    </li>
+                    <li>
+                        Michel Cusson
+                    </li>
+                </ul>
+            </ul>
+            <li>Latin</li>
+            <li>Blues</li>
+            <li>Metal</li>
+            <li>Classic</li>
+            <li>Folk</li>
+
+    </ul>
+    <ul div class="text">
+        <h3>
+            <img class="photos" src="images/news_icon.png" , align=left> Nouvelles <img src="images/ICON_submenu.png">
+        </h3>
+        <li><img class="photos" src="images/radio_canada_icon.png" , align=left><a
+                href="https://www.radio-canada.ca/">Radio-Canada</a></li>
+        <li><img class="photos" src="images/nbc_icon.png" , align=left><a href="https://www.nbc.com/">NBC News</a></li>
+        <li><img class="photos" src="images/cnn_icon.png" , align=left><a href="https://www.cnn.com/">CNN News</a></li>
+        <ul>
+            <li><img class="photos" src="images/meteo_icon.png" , align=left> Météo <img src="images/ICON_submenu.png">
+            </li>
+            <ul>
+                <li>
+                    <img class="photos" src="images/meteo_media_icon.png" , align=left> Météomédia
+                </li>
+                <li>
+                    <img class="photos" src="images/Hurricane_icon.png" , align=left> Ouragan
+                </li>
+                <li>
+                    <img class="photos" src="images/wunder_icon.png" , align=left> Wunder Ground
+                </li>
+            </ul>
+        </ul>
+    </ul>
+    <ul div class="text">
+        <h3><img class="photos" src="images/game_icon.png" , align=left> Jeux <img src="images/ICON_submenu.png"></h3>
+        <li><img class="photos" src="images/backgammon_icon.png" , align=left> Backgammon</li>
+        <li><img class="photos" src="images/reversi_icon.png" , align=left> Reversi</li>
+    </ul>
+    <ul div class="text">
+        <h3><img class="photos" src="images/contact_icon.png" , align=left> Contacts <img src="images/ICON_submenu.png">
+        </h3>
+        <li><img class="photos" src="images/facebook_icon.png" , align=left> Facebook</li>
+        <li><img class="photos" src="images/twitter_icon.png" , align=left> Twitter</li>
+        <li><img class="photos" src="images/google_plus_icon.png" , align=left> Google+</li>
+    </ul>
+
+</body>
+
+</html>
